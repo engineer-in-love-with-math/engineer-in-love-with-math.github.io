@@ -4,19 +4,40 @@ body {
   padding: 0;
 }
 
-nav {
-  background-color: #222;
-  padding: 10px;
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  display: flex;
-  gap: 20px;
+  display: flex; 
+  gap: 1rem;
+  list-style: none;
+  justify-content: center;
 }
 
-nav a {
+nav ul li a {
   color: white;
   text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background: #f0f0f0;
+}
+
+.intro {
+  padding: 2em; 
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  backgorund: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9em;
 }
